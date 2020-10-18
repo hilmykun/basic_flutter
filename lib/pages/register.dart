@@ -25,13 +25,6 @@ class _RegisterPageState extends State<RegisterPage> {
       appBar: AppBar(
         backgroundColor: Colors.purple,
         title: Text("Register"),
-        actions: [
-          GestureDetector(
-              onTap: () {
-                Get.back();
-              },
-              child: Icon(Icons.arrow_back))
-        ],
       ),
       body: Container(
         margin: EdgeInsets.symmetric(horizontal: 20),

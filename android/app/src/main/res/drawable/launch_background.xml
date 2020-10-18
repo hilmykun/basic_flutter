@@ -8,9 +8,9 @@
     </item>
 
     <!-- You can insert your own image assets here -->
-    <item>
+    <!-- <item>
         <bitmap
             android:gravity="center"
             android:src="@drawable/ic_logo_png" />
-    </item>
+    </item> -->
 </layer-list>
