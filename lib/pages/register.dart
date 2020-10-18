@@ -144,8 +144,10 @@ class _RegisterPageState extends State<RegisterPage> {
                               term = value;
                             });
                           }),
-                      Text(
-                          "I affirm that i have read and accept to be bound\nby the AnitaB.org Code of conduct, Terms \n and Privacy policy Further i consent to use of my \n information for the started purpose")
+                      Flexible(
+                        child: Text(
+                            "I affirm that i have read and accept to be bound\nby the AnitaB.org Code of conduct, Terms \n and Privacy policy Further i consent to use of my \n information for the started purpose"),
+                      )
                     ],
                   ),
                 ),
